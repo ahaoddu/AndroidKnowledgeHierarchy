@@ -237,7 +237,7 @@ int main()
 
 ### 2.4 Sequentially-consistent ordering
 
-Sequentially-consistent ordering 是缺省设置，在 Release-Acquire ordering 限制的基础上，保证了所有设置了 `memory_order_seq_cst` 标志的原子操作安装代码的先后顺序执行。
+Sequentially-consistent ordering 是缺省设置，在 Release-Acquire ordering 限制的基础上，保证了所有设置了 `memory_order_seq_cst` 标志的原子操作按照代码的先后顺序执行。
 
 
 ## 参考资料
