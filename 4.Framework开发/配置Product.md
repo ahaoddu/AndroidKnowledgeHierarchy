@@ -190,10 +190,9 @@ board目录下主要是一些开发版相关的配置， product 目录主要是
 ```bash
 device
 └── company_name
-    ├── board_name
-    │   ├── AndroidBoard.mk
+    ├── product_device_name
     │   └── BoardConfig.mk
-    └── products
+    └── product
         ├── AndroidProducts.mk
         ├── first_product_name.mk
         └── second_product_name.mk
