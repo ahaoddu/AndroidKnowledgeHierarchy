@@ -456,7 +456,7 @@ WIFI_DRIVER_FW_PATH_STA     := "/dev/null"
 WIFI_DRIVER_FW_PATH_AP      := "/dev/null"
 ```
 
-将 build/target/product/aosp_x86_64.mk 拷贝到 myproduct.mk ，并修改最后四行：
+将 build/target/product/aosp_x86_64.mk 拷贝到 myaosp.mk ，并修改最后四行：
 
 ```bash
 #

@@ -25,10 +25,11 @@
 * [环境准备与源码下载](https://github.com/ahaoddu/AndroidSourceLearn/blob/main/Android%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%8E%E5%AE%9E%E8%B7%B5-%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87%E4%B8%8E%E6%BA%90%E7%A0%81%E4%B8%8B%E8%BD%BD.md)
 * [配置 Product](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/blob/main/4.Framework%E5%BC%80%E5%8F%91/%E9%85%8D%E7%BD%AEProduct.md)
 * 添加自定义模块
-* SEAndroid
 * Android 属性框架
 
 ## 5. linux 系统编程与驱动开发
 
 * [linux驱动入门-模块](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/blob/main/5.Linux%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B%E4%B8%8E%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91/3.Linux%E9%A9%B1%E5%8A%A8%E5%85%A5%E9%97%A8-%E6%A8%A1%E5%9D%97.md)
 * [linux驱动入门-驱动](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/blob/main/5.Linux%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B%E4%B8%8E%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91/4.Linux%E9%A9%B1%E5%8A%A8%E5%85%A5%E9%97%A8-%E9%A9%B1%E5%8A%A8.md)
+
+## 6. Android 安全
