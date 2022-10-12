@@ -1,0 +1,10 @@
+cc_binary {              //模块类型为可执行文件
+    name: "hellobp",       //模块名hello
+    srcs: ["hello.cpp"], //源文件列表
+    vendor: true,        //编译出来放在/vendor目录下(默认是放在/system目录下)
+    shared_libs: [       //编译依赖的动态库
+        //"liblog",
+        //"libmylog",
+    ],
+    cflags: ["-Werror"], //添加编译选项
+}
