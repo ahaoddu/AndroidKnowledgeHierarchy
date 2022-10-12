@@ -103,6 +103,13 @@ PRODUCT_PACKAGES += hellobp
 ## 示例程序
 
 
+Android.mk 示例程序：
+
+https://github.com/ahaoddu/AndroidKnowledgeHierarchy/tree/main/4.Framework%E5%BC%80%E5%8F%91/Demos/mk/executable/HelloMk
+
+
+Android.bp 示例程序：https://github.com/ahaoddu/AndroidKnowledgeHierarchy/tree/main/4.Framework%E5%BC%80%E5%8F%91/Demos/bp/executable/HelloBp
+
 ## 参考资料
 
 * [Android系统开发入门-4.添加自定义模块](http://qiushao.net/2019/11/22/Android%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91%E5%85%A5%E9%97%A8/4-%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A8%A1%E5%9D%97/)
