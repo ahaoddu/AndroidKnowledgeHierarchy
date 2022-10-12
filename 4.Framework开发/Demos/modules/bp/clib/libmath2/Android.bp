@@ -1,0 +1,10 @@
+
+cc_library_static {
+    name: "libmymath2bp",
+
+    srcs: ["my_math2.c"],
+
+    export_include_dirs: ["."],
+
+    compile_multilib: "64",
+}

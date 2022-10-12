@@ -1,0 +1,7 @@
+java_library {
+    name: "TriangleDemo",
+    installable: true,
+    vendor: true,
+    libs: ["libmytriangle"],
+    srcs: ["**/*.java"],
+}

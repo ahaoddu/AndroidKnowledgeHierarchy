@@ -1,53 +1,31 @@
-# 添加自定义模块之 C&CPP 可执行程序
+# 添加自定义模块之 C&CPP 库
 
 ## 1. Android.mk 方式集成
 
-在 `aosp/device/mycompamy/product`/ 目录下创建 hello 目录，在 hello 目录内添加 hello.cpp :
-
-```c++
-#include <cstdio>
-
-int main()
-{
-    printf("Hello Android\n");
-    return 0;
-}
-
-```
-
-在 hello 目录内添加 android.mk：
+在 `aosp/device/mycompamy/product`/ 目录下创建以下的目录和文件：
 
 ```bash
-LOCAL_PATH:= $(call my-dir)
-include $(CLEAR_VARS)
-
-# c flag
-LOCAL_CFLAGS += \
-                -Wno-error \
-                -Wno-unused-parameter
-
-
-# user: 指该模块只在user版本下才编译
-# eng: 指该模块只在eng版本下才编译
-# tests: 指该模块只在tests版本下才编译
-# optional:指该模块在所有版本下都编译
-LOCAL_MODULE_TAGS := optional
-# "both": build both 32-bit and 64-bit.
-# "32": build only 32-bit.
-# "64": build only 64-bit.
-LOCAL_MULTILIB := 64
-
-# 编译到 vender 而不是 system
-LOCAL_VENDOR_MODULE := true
-
-# 源码
-LOCAL_SRC_FILES := hello.cpp
-
-# 模块名
-LOCAL_MODULE := hellomk
-# 表示当前模块是可执行程序
-include $(BUILD_EXECUTABLE)
+.
+├── AndroidProducts.mk
+├── libmath
+│   ├── Android.mk
+│   ├── my_math.c
+│   └── my_math.h
+├── libmath2
+│   ├── Android.mk
+│   ├── my_math2.c
+│   └── my_math2.h
+├── main
+│   ├── Android.mk
+│   └── main.c
+└── myaosp.mk
 ```
+
+其中 AndroidProducts.mk myaosp.mk 是 [配置product](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/blob/main/4.Framework%E5%BC%80%E5%8F%91/%E9%85%8D%E7%BD%AEProduct.md) 中添加的 product 配置文件。libmath 是一个
+
+
+
+
 
 在 `aosp/device/mycompamy/product/myaosp.mk` 中添加：
 
@@ -109,6 +87,9 @@ https://github.com/ahaoddu/AndroidKnowledgeHierarchy/tree/main/4.Framework%E5%BC
 
 
 Android.bp 示例程序：https://github.com/ahaoddu/AndroidKnowledgeHierarchy/tree/main/4.Framework%E5%BC%80%E5%8F%91/Demos/bp/executable/HelloBp
+
+
+![](https://gitee.com/stingerzou/pic-bed/raw/master/img/20221012114903.png)
 
 ## 参考资料
 
