@@ -15,7 +15,7 @@
 
 ## 1. Android.mk 方式集成
 
-在 `aosp/device/mycompamy/product`/ 目录下创建 hello 目录，在 hello 目录内添加 hello.cpp :
+在 `aosp/device/mycompamy/product/` 目录下创建 hello 目录，在 hello 目录内添加 hello.cpp :
 
 ```c++
 #include <cstdio>

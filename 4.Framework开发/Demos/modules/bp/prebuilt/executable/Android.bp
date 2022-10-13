@@ -1,0 +1,4 @@
+cc_prebuilt_binary {
+    name: "busyboxbp",
+    srcs: ["busybox"],
+}

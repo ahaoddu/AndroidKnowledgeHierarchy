@@ -2,7 +2,7 @@
 
 ## 1. Android.mk 方式集成
 
-在 `aosp/device/mycompamy/product`/ 目录下创建以下的目录和文件：
+在 `aosp/device/mycompamy/product/` 目录下创建以下的目录和文件：
 
 ```bash
 .
