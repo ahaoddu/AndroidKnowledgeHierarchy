@@ -130,7 +130,6 @@ public class  TriangleDemo
 
 ```bash
 mm
-...
 
 ```
 
@@ -160,7 +159,6 @@ app_process /product/framework/ com.ahaoddu.main.TriangleDemo
 ```
 
 执行结果如下图所示：
-
 ![](https://gitee.com/stingerzou/pic-bed/raw/master/img/20221013123232.png)
 
 ## 2. Android.bp 方式集成
