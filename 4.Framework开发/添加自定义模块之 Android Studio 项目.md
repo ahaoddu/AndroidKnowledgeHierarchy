@@ -117,3 +117,13 @@ android_app {
 ```makefile
 mm
 ```
+
+常用的自定义模块：
+
+* C/C++ 可执行程序
+* C/C++ 库
+* Java库
+* Android 库
+* apk
+
+已经介绍完了，如果要写一些没有提到的模块可以在源码里面搜索（find grep），参考源码编写即可。

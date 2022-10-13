@@ -7,6 +7,7 @@
 * Java库
 * Android 库
 * apk
+* ......
 
 刚开始，Android 系统使用 Android.mk 的方式来添加模块，Android.mk 实质是 Makefile 脚本，随着 Android 系统日趋复杂，编译速度越来越慢（我的 ryzen 3800x 编译 Android5 只要30分钟，Android10 已经要 2 小时了），google 添加了 Android.bp 的方式来添加模块，据说编译会更快（换 cpu 才是加快编译速度的最佳方案，^_^）。随着系统的更新，Android.mk 会越来越少，Android.bp 会成为未来的主流，当然 Android.mk 也要能看懂。本文会介绍两种方式来添加模块。
 
