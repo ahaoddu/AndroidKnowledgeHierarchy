@@ -3,8 +3,9 @@
 自定义模块就是我们添加到 Android 系统中的：
 
 * C/C++ 可执行程序
-* C/C++ so库
+* C/C++ 库
 * Java库
+* Android 库
 * apk
 
 刚开始，Android 系统使用 Android.mk 的方式来添加模块，Android.mk 实质是 Makefile 脚本，随着 Android 系统日趋复杂，编译速度越来越慢（我的 ryzen 3800x 编译 Android5 只要30分钟，Android10 已经要 2 小时了），google 添加了 Android.bp 的方式来添加模块，据说编译会更快（换 cpu 才是加快编译速度的最佳方案，^_^）。随着系统的更新，Android.mk 会越来越少，Android.bp 会成为未来的主流，当然 Android.mk 也要能看懂。本文会介绍两种方式来添加模块。
@@ -116,6 +117,9 @@ PRODUCT_PACKAGES += hellobp
 
 示例源码在这个[链接](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/tree/main/4.Framework%E5%BC%80%E5%8F%91/Demos/modules)下的 mk/executable 和 bp/excutable 目录可以找到。
 
+https://blog.csdn.net/liaosongmao1/article/details/124843774
+
+https://github.com/lineageos4microg/android_vendor_partner_gms/issues/5
 
 ## 参考资料
 

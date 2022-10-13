@@ -297,9 +297,6 @@ cc_binary {
 
 其余操作和 Android.mk 方式均相同，需要注意模块名的最后两个字符我改成了 bp。
 
-## 示例源码
-
-示例源码在这个[链接](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/tree/main/4.Framework%E5%BC%80%E5%8F%91/Demos/modules)下的 mk/clib 和 bp/clib 目录可以找到。
 
 
 ## 参考资料
