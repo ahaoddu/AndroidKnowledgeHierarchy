@@ -19,6 +19,8 @@
 ### 2.2 计算机网络
 
 ## 3. 应用开发
+* 为什么需要 launcher activity
+* 全面屏和挖孔屏的适配
 
 ## 4. Framework 开发
 
@@ -37,3 +39,13 @@
 * [linux驱动入门-驱动](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/blob/main/5.Linux%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B%E4%B8%8E%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91/4.Linux%E9%A9%B1%E5%8A%A8%E5%85%A5%E9%97%A8-%E9%A9%B1%E5%8A%A8.md)
 
 ## 6. Android 安全
+
+
+## 关于我
+- 我叫阿豪，目前定居成都
+- 2012 年开始从事 Android 系统定制和应用开发相关的工作
+- 2015 年国防科技大学本科毕业，毕业后从事 Android 相关的开发和研究工作
+- 2019年初开始创业，从事 Android 系统开发工作
+- 如果你对 Android 系统感兴趣可以扫码添加我的微信，相互学习交流。
+
+![27c7e38ee991b9d1fb42cb3bdf352a7.jpg](https://cdn.nlark.com/yuque/0/2022/jpeg/2613680/1662174041146-53015bfc-12f7-4023-9131-0a9e51fd00a2.jpeg#clientId=u0593d637-e239-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=ud527bf55&margin=%5Bobject%20Object%5D&name=27c7e38ee991b9d1fb42cb3bdf352a7.jpg&originHeight=430&originWidth=430&originalType=binary&ratio=1&rotation=0&showTitle=false&size=42506&status=done&style=none&taskId=uf620381e-5767-4559-867e-093d91d3256&title=#crop=0&crop=0&crop=1&crop=1&id=qxLzV&originHeight=430&originWidth=430&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
