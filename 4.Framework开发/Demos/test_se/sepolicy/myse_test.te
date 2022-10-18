@@ -1,0 +1,14 @@
+# subject context in proccess status
+type  myse_test_dt, domain;
+# object context as a file
+type myse_test_dt_exec, exec_type, vendor_file_type, file_type;
+#grant perm as domain
+init_daemon_domain(myse_test_dt);
+
+domain_auto_trans(shell, myse_test_dt_exec, myse_test_dt);
+
+============= myse_test_dt ==============
+allow myse_test_dt adbd:unix_stream_socket { read write };
+allow myse_test_dt device:file { open read write };
+allow myse_test_dt devpts:chr_file { read write };
+allow myse_test_dt shell:fd use;

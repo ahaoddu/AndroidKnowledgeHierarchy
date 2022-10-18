@@ -1,0 +1,4 @@
+/vendor/bin/myse_test      u:object_r:myse_test_dt_exec:s0
+
+/dev/myse_dev               u:object_r:myse_testdev_t:s0
+

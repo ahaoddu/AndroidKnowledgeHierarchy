@@ -224,3 +224,5 @@ PRODUCT_PACKAGES += TriangleDemomk
 * [Android 10 根文件系统和编译系统(十九)：Android.bp各种模块编译规则](https://blog.csdn.net/ldswfun/article/details/120834205?spm=1001.2014.3001.5502)
 * [Soong Modules Reference](https://ci.android.com/builds/submitted/9155974/linux/latest/view/soong_build.html)
 * [Failing builds for Lineage-19.0 due to artifact path requirement](https://github.com/lineageos4microg/android_vendor_partner_gms/issues/5)
+* [自定义 SELinux](https://source.android.google.cn/docs/security/selinux/customize?hl=zh-cn)
+ 
