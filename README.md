@@ -12,6 +12,8 @@
 * [理解 C++ 的 Memory Order](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/blob/main/1.%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/C%26C%2B%2B/%E7%90%86%E8%A7%A3%20C%2B%2B%20%E7%9A%84%20Memory%20Order.md)
 * [CPP宏函数的注意点](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/blob/main/1.%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/C%26C%2B%2B/CPP%E5%AE%8F%E5%87%BD%E6%95%B0%E7%9A%84%E6%B3%A8%E6%84%8F%E7%82%B9.md)
 
+### 1.3 设计模式
+
 ## 2. 计算机基础
 
 ### 2.1 数据结构与算法
@@ -27,23 +29,35 @@
 
 * [环境准备与源码下载](https://github.com/ahaoddu/AndroidSourceLearn/blob/main/Android%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%8E%E5%AE%9E%E8%B7%B5-%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87%E4%B8%8E%E6%BA%90%E7%A0%81%E4%B8%8B%E8%BD%BD.md)
 * [配置 Product](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/blob/main/4.Framework%E5%BC%80%E5%8F%91/%E9%85%8D%E7%BD%AEProduct.md)
-* [添加自定义模块之 C&amp;CPP 可执行程序](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/blob/main/4.Framework%E5%BC%80%E5%8F%91/%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A8%A1%E5%9D%97%E4%B9%8B%20C%26CPP%20%E5%8F%AF%E6%89%A7%E8%A1%8C%E7%A8%8B%E5%BA%8F.md)
-* [添加自定义模块之 C&amp;CPP 库](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/blob/main/4.Framework%E5%BC%80%E5%8F%91/%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A8%A1%E5%9D%97%E4%B9%8B%20C%26CPP%20%E5%BA%93.md)
-* [添加自定义模块之 Java 库](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/blob/main/4.Framework%E5%BC%80%E5%8F%91/%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A8%A1%E5%9D%97%E4%B9%8B%20Java%20%E5%BA%93.md)
-* [添加自定义模块之 Android Studio 项目](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/blob/main/4.Framework%E5%BC%80%E5%8F%91/%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A8%A1%E5%9D%97%E4%B9%8B%20Android%20Studio%20%E9%A1%B9%E7%9B%AE.md)
+* 添加自定义模块
+  * [C&amp;CPP 可执行程序](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/blob/main/4.Framework%E5%BC%80%E5%8F%91/%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A8%A1%E5%9D%97%E4%B9%8B%20C%26CPP%20%E5%8F%AF%E6%89%A7%E8%A1%8C%E7%A8%8B%E5%BA%8F.md)
+  * [C&amp;CPP 库](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/blob/main/4.Framework%E5%BC%80%E5%8F%91/%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A8%A1%E5%9D%97%E4%B9%8B%20C%26CPP%20%E5%BA%93.md)
+  * [Java 库](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/blob/main/4.Framework%E5%BC%80%E5%8F%91/%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A8%A1%E5%9D%97%E4%B9%8B%20Java%20%E5%BA%93.md)
+  * [Android Studio 项目](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/blob/main/4.Framework%E5%BC%80%E5%8F%91/%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A8%A1%E5%9D%97%E4%B9%8B%20Android%20Studio%20%E9%A1%B9%E7%9B%AE.md)
 * [添加预编译模块](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/blob/main/4.Framework%E5%BC%80%E5%8F%91/%E6%B7%BB%E5%8A%A0%E9%A2%84%E7%BC%96%E8%AF%91%E6%A8%A1%E5%9D%97.md)
 * [SEAndroid入门](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/blob/main/4.Framework%E5%BC%80%E5%8F%91/SEAndroid%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8.md)
-* Android日志系统
+* Android 日志系统
 * Android 属性系统
-* Android adb 使用
-* Android 添加 binder 服务
-
+  * 如何添加属性
+  * SELinux 与属性
+  * 属性系统框架与源码分析
+* Android adb 使用与源码分析
+* Android Binder
+  * C 层示例与分析
+  * 驱动层分析
+  * C++ 层示例与分析
+  * Java 层示例与分析
 
 
 ## 5. linux 系统编程与驱动开发
 
 * [linux驱动入门-模块](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/blob/main/5.Linux%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B%E4%B8%8E%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91/3.Linux%E9%A9%B1%E5%8A%A8%E5%85%A5%E9%97%A8-%E6%A8%A1%E5%9D%97.md)
 * [linux驱动入门-驱动](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/blob/main/5.Linux%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B%E4%B8%8E%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91/4.Linux%E9%A9%B1%E5%8A%A8%E5%85%A5%E9%97%A8-%E9%A9%B1%E5%8A%A8.md)
+* linux内存管理
+* linux进程
+* linux进程间通信
+* linux io 多路复用
+* Android 中的 socket 通信
 
 ## 6. Android 安全
 
