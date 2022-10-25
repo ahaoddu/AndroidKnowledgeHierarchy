@@ -1,4 +1,4 @@
-# 【转载】为什么需要 launcher activity
+# 为什么需要 launcher activity
 
 ## 添加背景“优化”启动速度
 
