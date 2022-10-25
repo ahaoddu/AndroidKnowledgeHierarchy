@@ -24,7 +24,7 @@ binder 基于 CS 模型，参与跨进程通信的对象包括了：
 
 ## 2.编程实践
 
-这里主要参考了源码 `frameworks/native/cmds/servicemanager` 中的示例。
+这里主要参考了源码 `frameworks/native/cmds/servicemanager` 中的示例。源码可以在[这里](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/tree/main/4.Framework%E5%BC%80%E5%8F%91/Demos/binder/BinderCDemo)下载到。
 
 binder 在内核中注册为杂项驱动，要使用 binder 就需要调用 open write read ioctl 等 linux 中的文件操作函数。使用起来较为繁琐。为了简化程序的编写，示例程序对 binder 中的常用操作做了封装，这些封装主要保存在 binder.c binder.h 文件中。
 
