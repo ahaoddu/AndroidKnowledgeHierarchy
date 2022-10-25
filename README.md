@@ -21,7 +21,7 @@
 ### 2.2 计算机网络
 
 ## 3. 应用开发
-* 为什么需要 launcher activity
+* [为什么需要 launcher activity](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/blob/main/3.%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91/%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81%20launcher%20activity.md)
 * jetpack之app启动
 * 全面屏和挖孔屏的适配
 
