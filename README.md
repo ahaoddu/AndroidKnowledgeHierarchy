@@ -49,7 +49,7 @@
   * Java 层示例与分析
 
 
-## 5. linux 系统编程与驱动开发
+## 5. linux 内核、系统编程与驱动开发
 
 * [linux驱动入门-模块](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/blob/main/5.Linux%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B%E4%B8%8E%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91/3.Linux%E9%A9%B1%E5%8A%A8%E5%85%A5%E9%97%A8-%E6%A8%A1%E5%9D%97.md)
 * [linux驱动入门-驱动](https://github.com/ahaoddu/AndroidKnowledgeHierarchy/blob/main/5.Linux%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B%E4%B8%8E%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91/4.Linux%E9%A9%B1%E5%8A%A8%E5%85%A5%E9%97%A8-%E9%A9%B1%E5%8A%A8.md)
@@ -58,6 +58,9 @@
 * linux进程间通信
 * linux io 多路复用
 * Android 中的 socket 通信
+* linux 内核线程
+* linux 内核数据结构
+  * hlist_head / hlist_node
 
 ## 6. Android 安全
 
